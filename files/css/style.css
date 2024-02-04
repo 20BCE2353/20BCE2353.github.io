@@ -993,18 +993,16 @@ transition: .4s;
     row-gap: 2.5rem;
   }
   .project{
-    padding: 4.25rem 3rem;
+    padding: 4rem 1.5rem;
   }
   .project-content{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr;
+    column-gap: 2rem;
   }
   .box{
-    grid-template-columns: repeat(2,1fr);
-    column-gap: 3rem;
-    row-gap: 3rem;
-    justify-content: center;
-    width: 110%;
-    height: 90%;
+    grid-template-columns: 1fr; 
+    column-gap: 1.5rem; 
+    row-gap: 2rem;
   }
   .qualification__container{
     grid-template-columns: 1fr;
@@ -1038,12 +1036,18 @@ transition: .4s;
     display: none;
   }
   .project{
-    grid-template-columns: 1fr;
-    row-gap: 4rem;
+    padding: 3rem 1rem; 
   }
+
+  .project-content{
+    grid-template-columns: 1fr; 
+    column-gap: 1rem;
+  }
+
   .box{
-    grid-template-columns: 1fr;
-    row-gap: 2.5rem;
+    grid-template-columns: 1fr; 
+    column-gap: 1rem; 
+    row-gap: 1.5rem; 
   }
   .contact__form-group{
     grid-template-columns: 1fr;
