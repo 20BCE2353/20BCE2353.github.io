@@ -632,6 +632,51 @@ transition: .4s;
 }
 
 
+/*--=============== Professional Development ===============--*/
+
+.certifications {
+  padding: 6.25rem 0;
+  background-color: var(--body-color);
+  text-align: center;
+}
+
+.certifications__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.certification__item {
+  text-align: center;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.certification__item img {
+  max-width: 80%; 
+  height: auto;
+  border-radius: .75rem;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+}
+
+.certification__item h3 {
+  margin-top: 1rem;
+  font-size: var(--h2-font-size);
+  font-weight: bold;
+  color: var(--title-color);
+  white-space: nowrap;
+}
+
+.certification__item span {
+  display: block;
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+}
+
+
 /*=============== CONTACT ===============*/
 .contact__container{
   grid-template-columns: 6.5fr 5.5fr;
